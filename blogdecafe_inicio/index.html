@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Susa</title>
+
+    <!--Prefetch-->
+    <link rel="Prefetch" href="Personalidad.html" as="document">
+
+    <!--Preload-->
+    <link rel="Preload" href="normalize.css" as="style">
+    <link rel="stylesheet" href="normalize.css">
+
+    <link rel="Preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:ital,wght@1,400;1,700&display=swap" 
+    crossorigin="crosssorigin" as="font">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    
+    <header class="header">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin center-text">Blog<span class="logo__bold">DeSusa</span></h1>
+                </a>
+                <nav class="navegacion">
+                    <a href="Personalidad.html" class="navegacion__enlace">Personalidad</a>
+                    <a href="Concejos.html" class="navegacion__enlace">Concejos</a>
+                    <a href="Contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+
+            </div>
+        </div>
+
+        <div class="header__text">
+            <h2 class="no-margin">Blog de Susa, los mejores concejos.</h2>
+            <p  class="no.margin">Aprende de una de la mejor experta en concejos y aprendizajes de vida</p>
+        </div>
+    </header>
+
+    <div class="contenedor contenido-principal">
+        <main class="blog">
+            <h3>Mi Blog</h3>
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source loading="lazy" srcset="img/blog1.webp" type="image/webp">
+                        <img src="img/blog1.jpg" alt="imagen blog" loading="lazy">
+                    </picture>
+                </div>
+                
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Hablemos tomando Café</h4>
+                    <p>Mantener un alto nivel de motivación en el clima laboral es una tarea difícil. 
+                    No todos los días uno consigue resolver los problemas que se le plantean; surgen dudas, inseguridades, se 
+                    desencadenan conflictos con otros compañeros. 
+                    Un buen líder siempre tiene que estar en el momento justo para levantar los ánimos y 
+                    encontrar la manera de desenmarañar los momentos de bloqueo y hacer que sus compañeros vean la luz al final del túnel.</p>
+                    <a href="entrada.html" class="boton boton--primario">Leer entrada</a>
+                </div>
+            </article>
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source loading="lazy" srcset="img/blog2.webp" type="image/webp">
+                        <img src="img/blog2.jpg" alt="imagen blog" loading="lazy">
+                    </picture>
+                </div>
+                
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Las frases en el día a día</h4>
+                    <p>Todos necesitamos en algún momento de nuestra vida palabras de motivación que nos den el empujón que nos 
+                    falta para arriesgarnos, levantarnos, querernos, cuidarnos, o así de cliché como va a sonar: empezar de cero.</p>
+                    <a href="entrada.html" class="boton boton--primario">Leer entrada</a>
+                </div>
+            </article>
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source loading="lazy" srcset="img/blog3.webp" type="image/webp">
+                        <img src="img/blog3.jpg" alt="imagen blog" loading="lazy">
+                    </picture>
+                </div>
+                
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Hablemos tomando Café</h4>
+                    <p>¿Por qué es importante la motivación en el trabajo? La respuesta es clara, pero no por ello debemos olvidarla. 
+                    Unos trabajadores motivados se sienten cómodos y valorados en su puesto de trabajo. Se identifican con los valores de la empresa, 
+                    los comparten y los interiorizan. Como resultado, serán más productivos y eficientes, 
+                    con lo que la motivación es imprescindible para que tanto el empleado como la empresa estén satisfechos con el trabajo 
+                    y lo desarrollen en plenitud y sin problemas.</p>
+                    <a href="entrada.html" class="boton boton--primario">Leer entrada</a>
+                </div>
+            </article>
+        </main>
+        <aside class="sidebar">
+            <h3>Cursos y talleres de motivación</h3>
+            <ul class="cursos no-padding">
+                <li class="widget-curso">
+                    <h4 class="no-margin">Conversemos en privado</h4>
+                    <p class="widget-curso__label">Precio:  
+                        <span class="widget-curso__info">Gratis</span>
+                    </p>
+                    <p class="widget-curso__label">Cupo:
+                        <span class="widget-curso__info">20</span>
+                    </p>
+                    <a href="entrada.html" class="boton boton--secundario">Clic Aquí</a>
+                </li>
+                <li class="widget-curso">
+                    <h4 class="no-margin">4 recetas pra tener una vida más tranquila</h4>
+                    <p class="widget-curso__label">Precio:  
+                        <span class="widget-curso__info">Gratis</span>
+                    </p>
+                    <p class="widget-curso__label">Cupo:
+                        <span class="widget-curso__info">20</span>
+                    </p>
+                    <a href="entrada.html" class="boton boton--secundario">Clic Aquí</a>
+                </li>
+            </ul>
+        </aside>
+    </div>
+    <footer class="footer footer__text">Blog de Susa
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin center-text">Blog<span class="logo__bold">DeSusa</span></h1>
+                </a>
+                <nav class="navegacion">
+                    <a href="Personalidad.html" class="navegacion__enlace">Personalidad</a>
+                    <a href="Concejos.html" class="navegacion__enlace">Concejos</a>
+                    <a href="Contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/modernizr.js"></script>
+</body>
+</html>
